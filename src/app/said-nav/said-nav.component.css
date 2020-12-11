@@ -1,0 +1,13 @@
+.example-container {
+    width: 100%;
+    height: 500px;
+    
+  }
+  
+  mat-drawer{
+    width: 200px; 
+  }
+
+  .margin{
+    margin-left: 25px;
+  }

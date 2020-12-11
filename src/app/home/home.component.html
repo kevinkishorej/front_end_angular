@@ -1,0 +1,13 @@
+<mat-toolbar>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="fun()">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+       <ul>
+           <li ><a class="navlink" >Home</a></li>
+           <li ><a class="navlink" routerLink="/">Log_in</a></li>
+           <li ><a class="navlink" routerLink="/reg">Sing_up</a></li>
+       </ul>
+    
+</mat-toolbar>
+<app-said-nav (greetevent)="greetevent"></app-said-nav>
